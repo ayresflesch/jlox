@@ -12,18 +12,16 @@ $ java -cp out com.craftinginterpreters.lox.Lox
 ```
 
 Run file: 
-```shell
+```sh
     $ java -cp out com.craftinginterpreters.lox.Lox examples/calculator.lox
 ```
 
 Compile GenerateAST: 
-```shell
+```sh
     $ javac -d ./out src/com/craftinginterpreters/tool/*.java
 ```
 
 Run GenerateAST:
-```shell
-    $ java -cp out com.craftinginterpreters.tool.GenerateAst ./src/com/craftinginterpreters/lox
 ```sh
-$ java -cp out com.craftinginterpreters.lox.Lox examples/calculator.lox
+    $ java -cp out com.craftinginterpreters.tool.GenerateAst ./src/com/craftinginterpreters/lox
 ```
