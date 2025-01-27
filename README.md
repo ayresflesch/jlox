@@ -2,13 +2,13 @@
 
 ## compile and run
 Compile: 
-```shell
-    $ javac -d ./out src/com/craftinginterpreters/lox/*.java
+```sh
+$ javac -d ./out src/com/craftinginterpreters/lox/*.java
 ```
 
 Run on prompt:
-```shell
-    $ java -cp out com.craftinginterpreters.lox.Lox
+```sh
+$ java -cp out com.craftinginterpreters.lox.Lox
 ```
 
 Run file: 
@@ -24,4 +24,6 @@ Compile GenerateAST:
 Run GenerateAST:
 ```shell
     $ java -cp out com.craftinginterpreters.tool.GenerateAst ./src/com/craftinginterpreters/lox
+```sh
+$ java -cp out com.craftinginterpreters.lox.Lox examples/calculator.lox
 ```
